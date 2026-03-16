@@ -8,3 +8,5 @@ Customer details such customer_email, customer_city which are appearing repeatat
 If the only order like webcam(product_name-Column G, Row-13) is get deleted, so all information regarding same may also lost.This results loss of important data.
 ## Normalization Justification
 Storing all the information in a single table creates redundancy and increase the risk of anomalies.So the information like customer_city,customer_email repeated for every new order which increase storage unnecessarily and makes update difficult. Normalization resolve this kind of problem by splitting the whole table in to different table and then connect it together with keys. This helps to remove repeatativeness and easy to update the data.
+## ER Diagram
+![ER Diagram](er_diagram.png)
