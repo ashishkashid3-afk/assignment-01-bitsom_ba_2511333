@@ -1,27 +1,27 @@
 
 CREATE TABLE customers (
-    customer_id VARCHAR(10) PRIMARY KEY,
+    customer_id VARCHAR(10) PRIMARY KEY not null,
     customer_name VARCHAR(50),
     customer_email VARCHAR(50),
     customer_city VARCHAR(100)
 );
 
 CREATE TABLE products (
-    product_id VARCHAR(10) PRIMARY KEY,
+    product_id VARCHAR(10) PRIMARY KEY not null,
     product_name VARCHAR(50),
     category VARCHAR(50),
     unit_price DECIMAL(10, 2)
 );
 
 CREATE TABLE sales_representatives (
-    sales_rep_id VARCHAR(10) PRIMARY KEY,
+    sales_rep_id VARCHAR(10) PRIMARY KEY not null,
     sales_rep_name VARCHAR(50),
     sales_rep_email VARCHAR(50),
     office_address VARCHAR(200)
 );
 
 CREATE TABLE orders (
-    order_id VARCHAR(10) PRIMARY KEY,
+    order_id VARCHAR(10) PRIMARY KEY not null,
     customer_id VARCHAR(10),
     sales_rep_id VARCHAR(10),
     order_date DATE,
