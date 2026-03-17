@@ -14,5 +14,5 @@ e.g.2023-08-29 (yyyy-mm-dd)
 
 ### Decision 3 — <Standardize total_sales>
 Problem:only unit_sold & unit_price is given for each transaction.
-Resolution:calculate total_sales transactionwise which is required for analysis.
+Resolution:calculate total_sales transactionwise using formula (unit_sold*unit_price) which is required for analysis.
 
