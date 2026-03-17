@@ -57,7 +57,7 @@ INSERT INTO sales_representatives (sales_rep_id, sales_rep_name, sales_rep_email
 ('SR01', 'Deepak Joshi', 'deepak@corp.com', 'Mumbai HQ, Nariman Point, Mumbai - 400021'),
 ('SR02', 'Anita Desai', 'anita@corp.com', 'Delhi Office, Connaught Place, Delhi - 110001'),
 ('SR03', 'Ravi Kumar', 'ravi@corp.com', 'South Zone, MG Road, Bangalore - 5600018'),
-('SR04', 'Sunita Reddy', 'sunita@corp.com', 'West Zone, Domini, Mumbai - 400017'),
+('SR04', 'Sunita Reddy', 'sunita@corp.com', 'West Zone, Domini, Chennai - 400017'),
 ('SR05', 'Suresh Nair', 'suresh@corp.com', 'East Zone, Park Avenue, Kolkata - 700014');
 
 INSERT INTO orders (order_id, customer_id, sales_rep_id, order_date) VALUES
