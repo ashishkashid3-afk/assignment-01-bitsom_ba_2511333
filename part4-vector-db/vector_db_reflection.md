@@ -1,0 +1,3 @@
+## Vector DB Use Case
+In this case traditional keyword-based database search is not sufficient.
+Beacause keyword based search relies on principle of exact word matching, if this used by that law firms they get succed if they input exact keyword in search, but fails if they try to search synonym of keyword or word which is near to context.On the other hand Vector DB enable search synonym of keyword or word which is near to context to get relevant section by converting queries and documents in numerical embeddings.
